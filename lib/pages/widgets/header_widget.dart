@@ -28,7 +28,7 @@ class _HeaderWidgetState extends State<HeaderWidget> {
                 size: Dimensions.getIconSize(2.4),
               ),
               onPressed: Provider.of<MenuController>(context, listen: false)
-                  .controilMenu,
+                  .controlMenu,
             ),
           Text(
             "Dashboard",

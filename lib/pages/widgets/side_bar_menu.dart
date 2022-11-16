@@ -46,7 +46,7 @@ class _SideBarState extends State<SideBar> {
                         IconButton(
                           onPressed: Provider.of<MenuController>(context,
                                   listen: false)
-                              .controilMenu,
+                              .controlMenu,
                           icon: Icon(
                             Icons.close,
                             color: AppColor.white,
